@@ -1,7 +1,80 @@
 ---
-title: "finstab_symposium"
+title: "Discussion: Industry-specific effects of geopolitical risk on the volatility of the Johannesburg Stock Exchange: A GARCH-MIDAS approach"
+subtitle: "Finstab Research Symposium: Maintaing financial stability amid global volatility and uncertainty"
+author: "Xolani Sibande"
+date: "24 June 2025"
+institute: "South African Reserve Bank"
+format: 
+  beamer:
+    aspectration: 32
+    theme: "Copenhagen"
+    fonttheme: "structurebold"
+    header-includes:
+      - \setbeamertemplate{items}[circle]
+      - \setbeamertemplate{footline}[frame number]
+  
+bibliography: references.bib
+biblio-style: apalike
+natbiboptions: round
+link-citations: true
 ---
 
-## Quarto
+# Purpose
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+-   A focus on the effect of geopolitical risk (GPR) on the volatility of industry returns in the Johannesburg Stock Exchange (JSE)
+-   Particularly, industry-specific effects for 9 sector indexes (e.g. financials, health, industrials, etc.)
+-   Using the popular @caldara2022measuring GPR index
+-   Applied GARCH-MIDAS (mixed data frequency) approach
+-   Briefly, the paper aims to understand how GPR shocks affect the volatility of industry returns
+
+# Key findings
+
+-   Finding 1: Confirmed a industry effect
+-   Finding 2: Only the healthcare index showed a higher return volatility due to GPR shocks
+-   Finding 3: The rest demonstrated lower volatility response
+-   Finding 4: Similar global and local GPR effects
+
+
+# Comment 1: Strenghs
+-   Well presented paper
+-   Consideration of the literature
+-   Careful implementation of the GARCH-MIDAS approach (not common)
+
+
+# Comment 2: Centrality of investor behaviour
+-   Why study industry effect in the first place?
+    -   We expect investors to **react** differently to GPR shocks across industries
+-   What does it mean for investors to react differently? 
+    -  It means that investors can overreact to information [@de1985does]
+    -  It means that investors substitute private information for market information [@devenow1996rational]
+    -  It means that investors may have different risk preferences across industries [@plastun2020halloween]
+    -  etc.
+
+# Comment 2: Centrality of investor behaviour cont.
+-   The literature has shown in differentiated industry impact in other areas [for example, @sibande2024presidential]
+-   Lastly the debate on the literature as to the centrality of investor behaviour of investor behaviour is largely settled [@fakhry2016literature]
+-  The paper does not take a clear stand on the investor behaviour aspect
+    -   It is not clear why the healthcare index is more affected by GPR shocks
+    -   It is not clear why the other industries are less affected
+
+# Comment 3: Volatility is difficult to explain
+-  Volatility is difficult to explain because it is non-linear
+-  More returns volatility is not necessarily better or worse (not necessarily indicative of crises)
+-  Markets have become more **efficient** over time [@plastun2019rise]
+-  In addition the concept of GPR can be difficult to pin down (e.g. wars, elections, etc.)
+-  For robustness, the paper could have considered other measures of GPR or specific events (crises periods)
+-  Therefore, difficult to draw policy conclusions
+
+
+# Comment 4: Understanding volatility is important for financial stability
+-  However, understanding the drivers of volatility is important for financial stability
+-  It can be helpful to first understand the effect of returns volatility on real economic variables, for example employment [@sibande2019time]
+-  Then from the decomposition of volatility, short and long term policy implications can be drawn
+-  That is, in addition, the paper could have considered the effect of GPR shocks on real economic variables
+
+
+# Conclusion
+- Great paper - beneficial area of work for EMs!
+
+
+# References {.allowframebreaks .tiny}
