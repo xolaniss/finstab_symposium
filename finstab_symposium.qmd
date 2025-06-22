@@ -9,10 +9,16 @@ format:
     aspectration: 32
     theme: "Copenhagen"
     fonttheme: "structurebold"
+    colortheme: "whale"
     header-includes:
       - \setbeamertemplate{items}[circle]
       - \setbeamertemplate{footline}[frame number]
       - \usepackage{setspace}
+      - \setbeamerfont{title}{size=\large}
+      - \setbeamerfont{author}{size=\large}
+      - \setbeamerfont{institute}{size=\small}
+      - \setbeamerfont{date}{size=\small}
+      # - \useoutertheme[footline=authorinstitute]{miniframes}
   
 bibliography: references.bib
 biblio-style: apalike
@@ -23,6 +29,7 @@ fontsize: 12pt
 
 # Purpose {.s}
 \setstretch{1.5}
+
 -   A focus on the effect of geopolitical risk (GPR) on the volatility of industry returns in the Johannesburg Stock Exchange (JSE)
 -   Particularly, industry-specific effects for 9 sector indexes (e.g. financials, health, industrials, etc.)
 -   Using the popular @caldara2022measuring GPR index
@@ -54,12 +61,10 @@ fontsize: 12pt
     -  It means that investors may have different risk preferences across industries [@plastun2020halloween]
 
 # Comment 2: Centrality of investor behaviour cont. {.s}
-\setstretch{1.4}
+\setstretch{1.5}
 -   The literature has shown in differentiated industry impact in other areas [for example, @sibande2024presidential]
 -   Lastly the debate on the literature as to the centrality of investor behaviour of investor behaviour is largely settled [@fakhry2016literature]
 -  The paper does not take a clear stand on the investor behaviour aspect
-    -   It is not clear why the healthcare index is more affected by GPR shocks
-    -   It is not clear why the other industries are less affected
 
 # Comment 3: Volatility is difficult to explain {.s}
 \setstretch{1.5}
@@ -79,12 +84,12 @@ fontsize: 12pt
 -  That is, in addition, the paper could have considered the effect of GPR shocks on real economic variables
 
 # Conclusion 
-\begin{center}
+\center
 \large Great paper - beneficial area of work for EMs!
-\end{center}
+
 
 
 
 # References {.allowframebreaks}
 \small
-\setstretch{0.5}
+\setstretch{0}
