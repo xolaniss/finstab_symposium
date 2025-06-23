@@ -6,7 +6,7 @@ date: "24 June 2025"
 institute: "South African Reserve Bank"
 format: 
   beamer:
-    aspectration: 32
+    aspectration: 141
     theme: "Copenhagen"
     fonttheme: "structurebold"
     colortheme: "whale"
