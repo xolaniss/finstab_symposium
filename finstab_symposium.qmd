@@ -1,94 +1,122 @@
 ---
-title: "Discussion: Industry-specific effects of geopolitical risk on the volatility of the Johannesburg Stock Exchange: A GARCH-MIDAS approach"
-subtitle: "Finstab Research Symposium: Maintaing financial stability amid global volatility and uncertainty"
+title: "Discussion: When Does SARB Balance Sheet Expansion Affect Banking Sector Stability? Evidence from a State-Dependent Approach"
+subtitle: "Finstab Research Symposium"
 author: "Xolani Sibande"
-date: "24 June 2025"
-institute: "South African Reserve Bank"
-format: 
-  beamer:
-    aspectration: 141
-    theme: "Copenhagen"
-    fonttheme: "structurebold"
-    colortheme: "whale"
-    header-includes:
-      - \setbeamertemplate{items}[circle]
-      - \setbeamertemplate{footline}[frame number]
-      - \usepackage{setspace}
-      - \setbeamerfont{title}{size=\large}
-      - \setbeamerfont{author}{size=\large}
-      - \setbeamerfont{institute}{size=\small}
-      - \setbeamerfont{date}{size=\small}
-      # - \useoutertheme[footline=authorinstitute]{miniframes}
-  
+date: "9 June 2026"
+institute:
+  - Economic Research Department
+  - South African Reserve Bank
 bibliography: references.bib
 biblio-style: apalike
 natbiboptions: round
-link-citations: true
-fontsize: 12pt
+link-citations: true 
+fontsize: 11pt
 ---
 
 # Purpose {.s}
-\setstretch{1.5}
+\setstretch{1.3}
 
--   A focus on the effect of geopolitical risk (GPR) on the volatility of industry returns in the Johannesburg Stock Exchange (JSE)
--   Particularly, industry-specific effects for 9 sector indexes (e.g. financials, health, industrials, etc.)
--   Using the popular @caldara2022measuring GPR index
--   Applied GARCH-MIDAS (mixed data frequency) approach
--   Briefly, the paper aims to understand how GPR shocks affect the volatility of industry returns
+- Investigates *when* SARB balance sheet expansion supports or undermines banking sector stability
+- Distinguishes between **low-stress** and **high-stress** financial regimes using the credit-to-GDP gap
+- Employs two complementary models:
+  - State-dependent Bayesian SVAR (main model)
+  - State-dependent Bayesian IV Local Projection (robustness)
+- Data: 160 quarterly observations, 1984Q1–2024Q4
 
-# Key findings {.s}
-\setstretch{1.5}
--   Finding 1: Confirmed a industry effect
--   Finding 2: Only the healthcare index showed a higher return volatility due to GPR shocks
--   Finding 3: The rest demonstrated lower volatility response
--   Finding 4: Similar global and local GPR effects
+# Key Findings {.s}
+\setstretch{1.1}
 
+- Balance sheet expansion **stabilises** Tier 1 capital in *low-stress* periods — operates via liquidity provision and asset price support
+- In *high-stress* periods, the effect **weakens and becomes less predictable** — financial intermediation frictions dampen transmission
+- Conventional monetary policy (policy rate) has **limited impact** on bank stability when financial stress is elevated
+- Exchange rate, inflation, and property price shocks are significantly amplified in high-stress regimes
+- Credit-to-GDP gap threshold: --3 125, splitting sample roughly evenly (48% high-stress, 52% low-stress)
 
-# Comment 1: Strenghs {.s}
-\setstretch{1.5}
--   Well presented paper
--   Consideration of the literature
--   Careful implementation of the GARCH-MIDAS approach (not common)
+# Comment 1: Strengths {.s}
+\setstretch{1.1}
 
+- **Timely and policy-relevant**: Directly speaks to SARB's evolving balance sheet and macroprudential mandate
+- State-dependent framework captures nonlinear dynamics overlooked by linear models
+- Credit-to-GDP gap as regime variable aligns with BIS macroprudential standards and SARB's own surveillance framework
+- Dual-model design (BSVAR + IV-LP) strengthens identification and robustness
+- Long sample (1984–2024) spans multiple financial cycles including COVID-19
 
-# Comment 2: Centrality of investor behaviour {.s}
-\setstretch{1.4}
--   Why study industry effect in the first place?
-    -   We expect investors to **react** differently to GPR shocks across industries
--   What does it mean for investors to react differently? 
-    -  It means that investors can overreact to information [@de1985does]
-    -  It means that investors substitute private information for market information [@devenow1996rational]
-    -  It means that investors may have different risk preferences across industries [@plastun2020halloween]
+# Comment 2: Contextualising the SARB Balance Sheet {.s}
+\setstretch{1}
 
-# Comment 2: Centrality of investor behaviour cont. {.s}
-\setstretch{1.5}
--   The literature has shown in differentiated industry impact in other areas [for example, @sibande2024presidential]
--   Lastly the debate on the literature as to the centrality of investor behaviour of investor behaviour is largely settled [@fakhry2016literature]
--  The paper does not take a clear stand on the investor behaviour aspect
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\includegraphics[width=\linewidth]{Picture 1.png}
+\end{column}
+\begin{column}{0.45\textwidth}
+\small
+\begin{itemize}
+  \item SARB total assets grew from \textasciitilde R150bn (2005) to \textasciitilde R1.3trn (2024)
+  \item Growth driven overwhelmingly by \textbf{gold \& foreign currency reserves} — not domestic asset purchases
+  \item Operations (accommodation to banks) remains a small share
+  \item This is \textit{not} QE in the conventional sense — a distinction the paper could make more explicit
+\end{itemize}
+\end{column}
+\end{columns}
 
-# Comment 3: Volatility is difficult to explain {.s}
-\setstretch{1.5}
--  Volatility is difficult to explain because it is non-linear
--  More returns volatility is not necessarily better or worse (not necessarily indicative of crises)
--  Markets have become more **efficient** over time [@plastun2019rise]
--  In addition the concept of GPR can be difficult to pin down (e.g. wars, elections, etc.)
--  For robustness, the paper could have considered other measures of GPR or specific events (crises periods)
--  Therefore, difficult to draw policy conclusions
+# Comment 3: Balance Sheet Composition Matters {.s}
+\setstretch{1}
 
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\includegraphics[width=\linewidth]{Picture 2.png}
+\end{column}
+\begin{column}{0.45\textwidth}
+\small
+\begin{itemize}
+  \item Gold \& foreign currency consistently \textbf{above 80\%} of total assets throughout the sample
+  \item The stabilising effect found in the paper may reflect \textbf{reserve accumulation} rather than liquidity injection
+  \item Does the transmission channel differ depending on \textit{what} drives balance sheet expansion?
+  \item Decomposing the central bank assets variable could sharpen interpretation
+\end{itemize}
+\end{column}
+\end{columns}
 
-# Comment 4: Understanding volatility is important for financial stability {.s}
-\setstretch{1.5}
--  However, understanding the drivers of volatility is important for financial stability
--  It can be helpful to first understand the effect of returns volatility on real economic variables, for example employment [@sibande2019time]
--  Then from the decomposition of volatility, short and long term policy implications can be drawn
--  That is, in addition, the paper could have considered the effect of GPR shocks on real economic variables
+# Comment 4: Identification and Regime Classification {.s}
+\setstretch{1}
 
-# Conclusion 
+- The HP filter for the credit-to-GDP gap is well established but carries known limitations:
+  - **End-point problem**: estimates revise as new data arrive — relevant for real-time policy use
+  - Sensitivity to the smoothing parameter $\lambda$
+- The grid-search threshold (--3 125) splits sample nearly evenly — is this the most economically meaningful cut-off?
+- External instrument (US Fed balance sheet): justification is sound, but global financial cycle effects could confound South African-specific transmission
+- Impulse responses in the Minnesota prior-levels VAR: long-horizon magnitudes should be interpreted cautiously as credible bands widen
+
+# Comment 5: Extending the Policy Implications {.s}
+\setstretch{1}
+
+- Finding that balance sheet expansion is **less effective under stress** has a critical policy implication: relying on it *during* a crisis may be insufficient
+- The paper recommends a **state-contingent, integrated framework** — but what does this look like operationally for the SARB?
+- How do the results interact with **Basel III capital buffers** (e.g., countercyclical capital buffer) already calibrated to the credit gap?
+- Future work: does the *composition* of the balance sheet (accommodation vs. FX reserves vs. GFECRA) matter differently across regimes?
+
+# Comment:
+
+- @havemann2022bond
+- @choudhary2022analysing
+- @fowkes2022not
+
+# Conclusion {.s}
+\setstretch{1.2}
+
 \center
-\large Great paper - beneficial area of work for EMs!
+\large
 
+**Important paper** — one of the first to formally model state-dependent SARB balance sheet effects on banking stability
 
+\medskip
 
+Key ask: be explicit about how SARB balance sheet expansion differs from conventional QE, and sharpen the operational policy recommendations
+
+\medskip
+
+\normalsize
+The regime-dependent framework is a valuable addition to South Africa's financial stability toolkit
 
 # References {.allowframebreaks}
 \small
