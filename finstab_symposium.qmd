@@ -46,7 +46,9 @@ fontsize: 11pt
 
 \begin{columns}
 \begin{column}{0.55\textwidth}
-\includegraphics[width=\linewidth]{Picture 1.png}
+\textbf{\tiny SARB Total Assets, 2005--2024 (Rbn)}\\[2pt]
+\includegraphics[width=\linewidth]{Picture 1.png}\\[2pt]
+{\tiny \textit{Source: South African Reserve Bank}}
 \end{column}
 \begin{column}{0.45\textwidth}
 \small
@@ -64,7 +66,9 @@ fontsize: 11pt
 
 \begin{columns}
 \begin{column}{0.55\textwidth}
-\includegraphics[width=\linewidth]{Picture 2.png}
+\textbf{\tiny Gold \& FX Reserves as Share of SARB Total Assets}\\[2pt]
+\includegraphics[width=\linewidth]{Picture 2.png}\\[2pt]
+{\tiny \textit{Source: South African Reserve Bank}}
 \end{column}
 \begin{column}{0.45\textwidth}
 \small
@@ -77,15 +81,21 @@ fontsize: 11pt
 \end{column}
 \end{columns}
 
-# Comment 4: Identification and Regime Classification {.s}
-\setstretch{1}
+# Comment 4: The Elephant in the Room {.s}
+\setstretch{0.9}
 
-- The HP filter for the credit-to-GDP gap is well established but carries known limitations:
-  - **End-point problem**: estimates revise as new data arrive — relevant for real-time policy use
-  - Sensitivity to the smoothing parameter $\lambda$
-- The grid-search threshold (--3 125) splits sample nearly evenly — is this the most economically meaningful cut-off?
-- External instrument (US Fed balance sheet): justification is sound, but global financial cycle effects could confound South African-specific transmission
-- Impulse responses in the Minnesota prior-levels VAR: long-horizon magnitudes should be interpreted cautiously as credible bands widen
+\textbf{The SARB already did something QE-adjacent — and the paper is largely silent on it}
+
+\medskip
+
+- In April 2020, the SARB launched a **bond purchase programme (BPP)** in secondary markets — the most explicit balance sheet expansion episode in the sample
+- @havemann2022bond: the BPP had a **modest, short-lived effect** on bond yields; transmission to broader financial conditions was limited
+- @choudhary2022analysing: spillover effects across asset classes were **narrow and uneven** — limited pass-through to bank credit or Tier 1 capital
+- @fowkes2022not: QE is **structurally ill-suited** for South Africa — exchange rate vulnerability, inflation targeting, and shallow capital markets constrain its effectiveness
+- The paper's 1984–2024 sample includes the BPP episode: how does it load onto the state-dependent regimes, and does it drive the results?
+
+# Comment 4 continued
+\textbf{Follow-up question:} Should the 2020 BPP be treated as a \textit{structural break} in the SARB's balance sheet behaviour, or as an outlier that is absorbed by the high-stress regime? The answer has material implications for whether the state-dependent estimates generalise to future interventions.
 
 # Comment 5: Extending the Policy Implications {.s}
 \setstretch{1}
@@ -95,11 +105,6 @@ fontsize: 11pt
 - How do the results interact with **Basel III capital buffers** (e.g., countercyclical capital buffer) already calibrated to the credit gap?
 - Future work: does the *composition* of the balance sheet (accommodation vs. FX reserves vs. GFECRA) matter differently across regimes?
 
-# Comment:
-
-- @havemann2022bond
-- @choudhary2022analysing
-- @fowkes2022not
 
 # Conclusion {.s}
 \setstretch{1.2}
