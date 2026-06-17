@@ -1,8 +1,8 @@
 ---
 title: "Discussion: When Does SARB Balance Sheet Expansion Affect Banking Sector Stability? Evidence from a State-Dependent Approach"
 subtitle: "Finstab Research Symposium"
-author: "Xolani Sibande"
-date: "9 June 2026"
+author: "Xolani Sibande, PhD"
+date: "25 June 2026"
 institute:
   - Economic Research Department
   - South African Reserve Bank
