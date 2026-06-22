@@ -26,11 +26,10 @@ fontsize: 11pt
 # Key Findings {.s}
 \setstretch{1.1}
 
-- Balance sheet expansion **stabilises** Tier 1 capital in *low-stress* periods — operates via liquidity provision and asset price support
+- Balance sheet expansion **stabilises** Tier 1 capital in *low-stress* periods — operates via liquidity provisio -via lower funding costs- and asset price support
 - In *high-stress* periods, the effect **weakens and becomes less predictable** — financial intermediation frictions dampen transmission
 - Conventional monetary policy (policy rate) has **limited impact** on bank stability when financial stress is elevated
 - Exchange rate, inflation, and property price shocks are significantly amplified in high-stress regimes
-- Credit-to-GDP gap threshold: --3 125, splitting sample roughly evenly (48% high-stress, 52% low-stress)
 
 # Comment 1: Strengths {.s}
 \setstretch{1.1}
