@@ -23,13 +23,13 @@ fontsize: 11pt
   - State-dependent Bayesian IV Local Projection (robustness)
 - Data: 160 quarterly observations, 1984Q1–2024Q4
 
-# Key Findings {.s}
+# Key Findings - what is in a name? {.s}
 \setstretch{1.1}
 
 - Balance sheet expansion **stabilises** Tier 1 capital in *low-stress* periods — operates via liquidity provisio -via lower funding costs- and asset price support
 - In *high-stress* periods, the effect **weakens and becomes less predictable** — financial intermediation frictions dampen transmission
 - Conventional monetary policy (policy rate) has **limited impact** on bank stability when financial stress is elevated
-- Exchange rate, inflation, and property price shocks are significantly amplified in high-stress regimes
+- Exchange rate, inflation, and property price shocks are somewhat amplified in high-stress regimes
 
 # Comment 1: Strengths {.s}
 \setstretch{1.1}
@@ -88,9 +88,8 @@ fontsize: 11pt
 \medskip
 
 - In April 2020, the SARB launched a **bond purchase programme (BPP)** in secondary markets — the most explicit balance sheet expansion episode in the sample
-- @havemann2022bond: the BPP had a **modest, short-lived effect** on bond yields; transmission to broader financial conditions was limited
-- @choudhary2022analysing: spillover effects across asset classes were **narrow and uneven** — limited pass-through to bank credit or Tier 1 capital
-- @fowkes2022not: QE is **structurally ill-suited** for South Africa — exchange rate vulnerability, inflation targeting, and shallow capital markets constrain its effectiveness
+- @havemann2022bond and @choudhary2022analysing showed that the BPP was mostly successful in improving market confidence
+- However, @fowkes2022not asserted that QE is **structurally ill-suited** for South Africa —  mainly because on the moral hazard on the fiscal side
 - The paper's 1984–2024 sample includes the BPP episode: how does it load onto the state-dependent regimes, and does it drive the results?
 
 # Comment 4 continued
